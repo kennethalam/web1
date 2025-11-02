@@ -40,7 +40,7 @@ const Hero = () => {
           <div className="lg:w-1/2 mt-12 lg:mt-0 animate-fade-in-right">
             <div className="relative max-w-md mx-auto animate-float">
               <img 
-                src="https://cdn.discordapp.com/attachments/1416102621210480660/1431883338255171624/image-removebg-preview1.png?ex=68ff08c6&is=68fdb746&hm=492564022da6952b10444fbbf5bf4cc30de421ad97d9e03d1279c31beebdac27&"
+                src="https://pub-e26d0a6d89d74dfcbe88c3216acda68d.r2.dev/footer.png"
                 alt="Trading platform dashboard" 
                 className="rounded-xl shadow-2xl border border-white/10"
               />

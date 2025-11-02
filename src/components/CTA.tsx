@@ -9,7 +9,7 @@ export default function Locations() {
     const testPing = async () => {
       const start = performance.now();
       try {
-        await fetch("https://www.gstatic.com/generate_204", {
+        await fetch("", {
           mode: "no-cors",
           cache: "no-store",
         });
@@ -110,7 +110,7 @@ export default function Locations() {
         {/* Mapa mundial con punto en Miami */}
         <div className="relative">
           <img
-            src="https://cdn.discordapp.com/attachments/1416102621210480660/1431877508030005319/image-removebg-preview.png?ex=68ff0358&is=68fdb1d8&hm=46a064923c313f80c19d9831409b0cbff267b30e936308a781925440c9e18381&"
+            src="https://cdn.trustsnodes.com/mapa.png"
             alt="Mapa mundial"
             className="w-[650px] opacity-85 select-none pointer-events-none"
             loading="lazy"

@@ -12,7 +12,6 @@ const Features = () => {
             Nuestras Características
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            CryptoFlow gives you the edge with advanced tools designed for both beginners and professional traders.
           </p>
         </div>
 
