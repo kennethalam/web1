@@ -4,7 +4,7 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 
 /* ---------------------------
-   Links
+Links
 --------------------------- */
 const hostingLinks = [
   { name: "VPS Budget", url: "https://billing.trustsnodes.com/index.php?rp=/store/vps-budget" },
@@ -33,7 +33,7 @@ const ubicacionesLinks = [
 ];
 
 /* ---------------------------
-   Dropdown Mobile
+Dropdown Mobile
 --------------------------- */
 const MobileDropdown = ({ title, items }) => {
   const [open, setOpen] = useState(false);
@@ -67,18 +67,29 @@ const MobileDropdown = ({ title, items }) => {
 };
 
 /* ---------------------------
-   Navbar
+Navbar
 --------------------------- */
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [hoveredMenu, setHoveredMenu] = useState(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  let menuTimeout: any;
+
   useEffect(() => {
     const onScroll = () => setIsScrolled(window.scrollY > 10);
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  const openMenu = (menu: string) => {
+    clearTimeout(menuTimeout);
+    setHoveredMenu(menu);
+  };
+
+  const closeMenu = () => {
+    menuTimeout = setTimeout(() => setHoveredMenu(null), 150);
+  };
 
   return (
     <>
@@ -96,17 +107,25 @@ export default function Navbar() {
             />
           </Link>
 
+          {/* Desktop Menu */}
           <ul className="hidden lg:flex items-center space-x-10 text-white">
+
+            {/* Gameservers */}
             <li
-              className="relative group"
-              onMouseEnter={() => setHoveredMenu("games")}
-              onMouseLeave={() => setHoveredMenu(null)}
+              className="relative"
+              onMouseEnter={() => openMenu("games")}
+              onMouseLeave={() => closeMenu()}
             >
               <button className="flex items-center text-gray-300 hover:text-white">
                 Gameservers <ChevronDown size={18} className={`ml-1 ${hoveredMenu==="games" && "rotate-180"}`} />
               </button>
+
               {hoveredMenu === "games" && (
-                <div className="absolute top-full mt-2 w-56 bg-[#0a0c17] border border-[#20253a] rounded-lg shadow-lg py-2">
+                <div
+                  className="absolute top-full mt-2 w-56 bg-[#0a0c17] border border-[#20253a] rounded-lg shadow-lg py-2"
+                  onMouseEnter={() => openMenu("games")}
+                  onMouseLeave={() => closeMenu()}
+                >
                   {gameLinks.map((it) => (
                     <a key={it.name} href={it.url} target="_blank" rel="noopener noreferrer"
                       className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-[#13182b]">
@@ -117,16 +136,21 @@ export default function Navbar() {
               )}
             </li>
 
+            {/* Hosting */}
             <li
-              className="relative group"
-              onMouseEnter={() => setHoveredMenu("hosting")}
-              onMouseLeave={() => setHoveredMenu(null)}
+              className="relative"
+              onMouseEnter={() => openMenu("hosting")}
+              onMouseLeave={() => closeMenu()}
             >
               <button className="flex items-center text-gray-300 hover:text-white">
                 Hosting <ChevronDown size={18} className={`ml-1 ${hoveredMenu==="hosting" && "rotate-180"}`} />
               </button>
               {hoveredMenu === "hosting" && (
-                <div className="absolute top-full mt-2 w-56 bg-[#0a0c17] border border-[#20253a] rounded-lg shadow-lg py-2">
+                <div
+                  className="absolute top-full mt-2 w-56 bg-[#0a0c17] border border-[#20253a] rounded-lg shadow-lg py-2"
+                  onMouseEnter={() => openMenu("hosting")}
+                  onMouseLeave={() => closeMenu()}
+                >
                   {hostingLinks.map((it) => (
                     <a key={it.name} href={it.url} target="_blank" rel="noopener noreferrer"
                       className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-[#13182b]">
@@ -137,18 +161,24 @@ export default function Navbar() {
               )}
             </li>
 
+            {/* Ubicaciones */}
             <li
-              className="relative group"
-              onMouseEnter={() => setHoveredMenu("ubicaciones")}
-              onMouseLeave={() => setHoveredMenu(null)}
+              className="relative"
+              onMouseEnter={() => openMenu("ubicaciones")}
+              onMouseLeave={() => closeMenu()}
             >
               <button className="flex items-center text-gray-300 hover:text-white">
                 Ubicaciones <ChevronDown size={18} className={`ml-1 ${hoveredMenu==="ubicaciones" && "rotate-180"}`} />
               </button>
               {hoveredMenu === "ubicaciones" && (
-                <div className="absolute top-full mt-2 w-44 bg-[#0a0c17] border border-[#20253a] rounded-lg shadow-lg py-2">
+                <div
+                  className="absolute top-full mt-2 w-44 bg-[#0a0c17] border border-[#20253a] rounded-lg shadow-lg py-2"
+                  onMouseEnter={() => openMenu("ubicaciones")}
+                  onMouseLeave={() => closeMenu()}
+                >
                   {ubicacionesLinks.map((it) => (
-                    <a key={it.name} href={it.url} className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-[#13182b]">
+                    <a key={it.name} href={it.url}
+                      className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-[#13182b]">
                       {it.name}
                     </a>
                   ))}
@@ -156,16 +186,21 @@ export default function Navbar() {
               )}
             </li>
 
+            {/* Recursos */}
             <li
-              className="relative group"
-              onMouseEnter={() => setHoveredMenu("resources")}
-              onMouseLeave={() => setHoveredMenu(null)}
+              className="relative"
+              onMouseEnter={() => openMenu("resources")}
+              onMouseLeave={() => closeMenu()}
             >
               <button className="flex items-center text-gray-300 hover:text-white">
                 Recursos <ChevronDown size={18} className={`ml-1 ${hoveredMenu==="resources" && "rotate-180"}`} />
               </button>
               {hoveredMenu === "resources" && (
-                <div className="absolute top-full mt-2 w-56 bg-[#0a0c17] border border-[#20253a] rounded-lg shadow-lg py-2">
+                <div
+                  className="absolute top-full mt-2 w-56 bg-[#0a0c17] border border-[#20253a] rounded-lg shadow-lg py-2"
+                  onMouseEnter={() => openMenu("resources")}
+                  onMouseLeave={() => closeMenu()}
+                >
                   {resourceLinks.map((it) => (
                     <a key={it.name} href={it.url} target="_blank" rel="noopener noreferrer"
                       className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-[#13182b]">
@@ -176,9 +211,11 @@ export default function Navbar() {
               )}
             </li>
 
+            {/* FAQ */}
             <li>
               <a href="#faq" className="text-gray-300 hover:text-white">FAQ</a>
             </li>
+
           </ul>
 
           <div className="hidden lg:flex">
@@ -187,15 +224,17 @@ export default function Navbar() {
             </Link>
           </div>
 
+          {/* Mobile button */}
           <button className="lg:hidden text-white" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
       </nav>
 
-      {/* Mobile Menu */}
+      {/* Mobile Overlay */}
       {isMobileMenuOpen && <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[90]" onClick={() => setIsMobileMenuOpen(false)} />}
 
+      {/* Mobile Sidebar */}
       <aside
         className={`fixed top-0 right-0 h-full w-[80%] max-w-[360px] bg-[#0b0e19] border-l border-gray-800 z-[100] p-6 transform transition-transform duration-300 overflow-y-auto ${
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
@@ -211,7 +250,6 @@ export default function Navbar() {
         <MobileDropdown title="Ubicaciones" items={ubicacionesLinks} />
         <MobileDropdown title="Recursos" items={resourceLinks} />
 
-        {/* ✅ FAQ antes del botón Acceder */}
         <div className="mt-4 mb-4">
           <a href="#faq" onClick={() => setIsMobileMenuOpen(false)} className="text-gray-300 hover:text-white block text-base">
             FAQ
