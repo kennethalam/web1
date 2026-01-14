@@ -19,7 +19,7 @@
       "flag": "/flags/usa.png",
       "displayName": "USA",
       "availableCpus": ["ryzen-9"],
-      "availablePlanTypes": ["premium"]
+      "availablePlanTypes": ["budget", "premium"]
     }
   ],
   "games": [
@@ -33,6 +33,48 @@
       "startingAt": "$4.00/mo",
       "primaryColor": "#4CAF50",
       "plans": {
+        "budget": [
+          {
+            "id": "minecraft-budget-1",
+            "name": "Minecraft 4GB",
+            "type": "budget",
+            "ram": "4 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 4.0,
+            "orderLink": "https://billing.trustsnodes.com/minecraft-budget-4gb"
+          },
+          {
+            "id": "minecraft-budget-2",
+            "name": "Minecraft 8GB",
+            "type": "budget",
+            "ram": "8 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 8.0,
+            "orderLink": "https://billing.trustsnodes.com/minecraft-budget-8gb"
+          },
+          {
+            "id": "minecraft-budget-3",
+            "name": "Minecraft 16GB",
+            "type": "budget",
+            "ram": "16 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 16.0,
+            "orderLink": "https://billing.trustsnodes.com/minecraft-budget-16gb"
+          },
+          {
+            "id": "minecraft-budget-4",
+            "name": "Minecraft 32GB",
+            "type": "budget",
+            "ram": "32 GB",
+            "cpu": "Unmetered",
+            "storage": "Unmetered SSD",
+            "price": 32.0,
+            "orderLink": "https://billing.trustsnodes.com/minecraft-budget-32gb"
+          }
+        ],
         "premium": [
           {
             "id": "minecraft-premium-1",
