@@ -6,41 +6,15 @@ import { Globe } from "@/components/ui/globe";
 
 const locations = [
     {
-        name: "Amsterdam",
-        region: "EU West",
-        flag: "/flags/germany.png",
-        ping: "66ms",
-        status: "active",
-        lat: 52.3676,
-        lng: 4.9041,
-    },
-    {
-        name: "Chicago, IL",
-        region: "US Central",
-        flag: "/flags/usa.png",
-        ping: "157ms",
-        status: "active",
-        lat: 41.8781,
-        lng: -87.6298,
-    },
-    {
         name: "Dallas, TX",
         region: "US South",
         flag: "/flags/usa.png",
-        ping: "169ms",
+        ping: "70ms",
         status: "active",
         lat: 32.7767,
         lng: -96.7970,
     },
-    {
-        name: "Seattle, WA",
-        region: "US West",
-        flag: "/flags/usa.png",
-        ping: "197ms",
-        status: "active",
-        lat: 47.6062,
-        lng: -122.3321,
-    },
+
 ];
 
 const LocationItem = memo(({ location, index }: { location: typeof locations[0], index: number }) => {
