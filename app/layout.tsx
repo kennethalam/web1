@@ -44,8 +44,8 @@ export const viewport: Viewport = {
   initialScale: 1,
   colorScheme: "dark light",
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#1e40af" },
-    { media: "(prefers-color-scheme: dark)", color: "#1e3a8a" }
+    { media: "(prefers-color-scheme: light)", color: "#491eaf" },
+    { media: "(prefers-color-scheme: dark)", color: "#491eaf" }
   ],
 }
 
@@ -71,9 +71,9 @@ export const metadata: Metadata = {
     "modded game hosting",
     "server rental"
   ],
-  authors: [{ name: "Anthony" }],
-  creator: "Anthony",
-  publisher: "DezerX | NovaTemplate",
+  authors: [{ name: "Kenneth" }],
+  creator: "Kenneth",
+  publisher: "TrustsNodes",
   category: "Game Hosting & Server Solutions",
   openGraph: {
     type: "website",
@@ -137,7 +137,7 @@ export const metadata: Metadata = {
     canonical: "https://trustsnodes.com"
   },
   other: {
-    "msapplication-TileColor": "#1e40af",
+    "msapplication-TileColor": "#5d21ac",
     "msapplication-config": "/browserconfig.xml",
     "terms-of-service": "https://trustsnodes.com/terms-of-services",
     "privacy-policy": "https://trustsnodes.com/privacy-policy"
