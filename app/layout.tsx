@@ -51,10 +51,10 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "DezerNova - Game Hosting, VPS & Dedicated Servers",
-    template: "%s | DezerNova"
+    default: "TrustsNodes - Game Hosting, VPS & Dedicated Servers",
+    template: "%s | TrustsNodes"
   },
-  description: "Premium game hosting, VPS & dedicated servers by DezerNova. High-performance infrastructure with 99.9% uptime, DDoS protection & 24/7 support.",
+  description: "Premium game hosting, VPS & dedicated servers by TrustsNodes. High-performance infrastructure with 99.9% uptime, DDoS protection & 24/7 support.",
   keywords: [
     "game hosting",
     "minecraft hosting",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     "dedicated servers",
     "cloud servers",
     "gaming servers",
-    "DezerNova",
+    "TrustsNodes",
     "low latency hosting",
     "DDoS protection",
     "24/7 support",
@@ -78,25 +78,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nova.dezerx.com",
-    siteName: "DezerNova - Game Hosting & Servers",
-    title: "DezerNova - Game Hosting, VPS & Dedicated Servers",
+    url: "https://trustsnodes.com",
+    siteName: "TrustsNodes - Game Hosting & Servers",
+    title: "TrustsNodes - Game Hosting, VPS & Dedicated Servers",
     description: "Premium game hosting, VPS, and dedicated server solutions. High-performance infrastructure for gaming communities and developers with DDoS protection.",
     images: [
       {
-        url: "https://nova.dezerx.com/meta/Banner.png",
+        url: "https://trustsnodes.com/meta/Banner.png",
         width: 1200,
         height: 630,
-        alt: "DezerNova - Game Hosting, VPS & Dedicated Servers",
+        alt: "TrustsNodes - Game Hosting, VPS & Dedicated Servers",
         type: "image/png"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "DezerNova - Game Hosting, VPS & Dedicated Servers",
+    title: "TrustsNodes - Game Hosting, VPS & Dedicated Servers",
     description: "Premium game hosting and server solutions. High-performance infrastructure for gaming communities with DDoS protection and 24/7 support.",
-    images: ["https://nova.dezerx.com/meta/Banner.png"]
+    images: ["https://trustsnodes.com/meta/Banner.png"]
   },
   robots: {
     index: true,
@@ -118,7 +118,7 @@ export const metadata: Metadata = {
     google: "vzsKvhNUgAPlCbf1annB0Sl-bttSFos87mhOyQSU2aY", 
   },
 
-  applicationName: "DezerNova",
+  applicationName: "TrustsNodes",
   referrer: "origin-when-cross-origin",
 
   manifest: "/manifest.json",
@@ -134,13 +134,13 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: "https://nova.dezerx.com"
+    canonical: "https://trustsnodes.com"
   },
   other: {
     "msapplication-TileColor": "#1e40af",
     "msapplication-config": "/browserconfig.xml",
-    "terms-of-service": "https://nova.dezerx.com/terms-of-services",
-    "privacy-policy": "https://nova.dezerx.com/privacy-policy"
+    "terms-of-service": "https://trustsnodes.com/terms-of-services",
+    "privacy-policy": "https://trustsnodes.com/privacy-policy"
   }
 };
 // yo yo, wassup, ma name is big A aka the big ANTHONYYYYYYYYYYYYYYYYYY. like my work so far? rate it a 5 star on BBB pweaseeeeeeeeee
@@ -165,9 +165,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              "name": "DezerNova",
-              "url": "https://nova.dezerx.com",
-              "logo": "https://nova.dezerx.com/meta/Logo.png",
+              "name": "TrustsNodes",
+              "url": "https://trustsnodes.com",
+              "logo": "https://trustsnodes.com/meta/Logo.png",
               "description": "Premium game hosting, VPS, and dedicated server solutions for gaming communities and developers",
               "serviceType": ["Game Server Hosting", "VPS Hosting", "Dedicated Servers", "Cloud Infrastructure"],
               "areaServed": "Worldwide",
@@ -209,14 +209,14 @@ export default function RootLayout({
                 "contactType": "customer service",
                 "availableLanguage": "English",
                 "serviceType": "Technical Support",
-                "url": "https://discord.gg/Qrzn2enUP2"
+                "url": "https://discord.gg/3KNYxaG86r"
               },
               "founder": {
                 "@type": "Person",
-                "name": "Anthony "
+                "name": "Kenneth "
               },
-              "termsOfService": "https://nova.dezerx.com/terms-of-services",
-              "privacyPolicy": "https://nova.dezerx.com/privacy-policy"
+              "termsOfService": "https://trustsnodes.com/terms-of-services",
+              "privacyPolicy": "https://trustsnodes.comprivacy-policy"
             })
           }}
         />
