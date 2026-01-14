@@ -3,7 +3,7 @@
     "title": "Términos de Servicio",
     "lastUpdated": "Enero 2026",
     "companyName": "TrustsNodes",
-    "websiteUrl": "https://trustsnodes.com.com",
+    "websiteUrl": "https://trustsnodes.com",
     "contactEmail": "legal@trustsnodes.com",
     "sections": [
       {
@@ -50,10 +50,10 @@
   },
   "privacyPolicy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Junary 2026",
-    "companyName": "DezerNova",
+    "lastUpdated": "Enero 2026",
+    "companyName": "TrustsNodes",
     "websiteUrl": "https://trustsnodes.com",
-    "contactEmail": "legal@dezerx.com",
+    "contactEmail": "legal@trustsnodes.com",
     "sections": [
       {
         "title": "1. Información que recopilamos",
@@ -72,7 +72,7 @@
         "content": "Implementamos medidas de seguridad adecuadas para proteger su información personal contra accesos, alteraciones, divulgaciones o destrucción no autorizados. Sin embargo, ningún método de transmisión por internet es 100 % seguro."
       },
       {
-        "title": "seguimiento de cookies",
+        "title": "5. Seguimiento de cookies",
         "content": "Utilizamos cookies y tecnologías de seguimiento similares para mejorar su experiencia en nuestro sitio web. Puede controlar la configuración de cookies a través de las preferencias de su navegador."
       },
       {
