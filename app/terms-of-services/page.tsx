@@ -59,11 +59,11 @@ export default function TermsPage() {
           </div>
 
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 orbitron-font">
-            Terms of <span className="icon-text-primary">Service</span>
+            Términos de <span className="icon-text-primary">Servicio</span>
           </h1>
 
           <p className="text-gray-600 dark:text-gray-300">
-            Last updated: {legalConfig.termsOfService.lastUpdated}
+            Ultima Actualizacion: 12-01-2026 {legalConfig.termsOfService.lastUpdated}
           </p>
         </motion.div>
 
@@ -124,10 +124,10 @@ export default function TermsPage() {
               className="mt-12 p-6 bg-white dark:bg-white/3 rounded-xl"
             >
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
-                Contact Information
+                Información del contacto
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
-                If you have any questions about these Terms of Service, please contact us at:{" "}
+                Si tiene alguna pregunta sobre estos Términos de Servicio, contáctenos a:{" "}
                 <a
                   href={`mailto:${legalConfig.termsOfService.contactEmail}`}
                   className="icon-text-primary hover:text-icon-text-primary/80 hover:underline"

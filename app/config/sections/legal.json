@@ -1,99 +1,99 @@
 {
   "termsOfService": {
-    "title": "Terms of Service",
-    "lastUpdated": "July 2025",
-    "companyName": "DezerNova",
-    "websiteUrl": "https://nova.dezerx.com",
-    "contactEmail": "legal@dezerx.com",
+    "title": "Términos de Servicio",
+    "lastUpdated": "Enero 2026",
+    "companyName": "TrustsNodes",
+    "websiteUrl": "https://trustsnodes.com.com",
+    "contactEmail": "legal@trustsnodes.com",
     "sections": [
       {
-        "title": "1. Acceptance of Terms",
-        "content": "By accessing and using our services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service."
+        "title": "1. Aceptación de términos",
+        "content": "Al acceder y utilizar nuestros servicios, usted acepta los términos y condiciones de este acuerdo. Si no está de acuerdo con lo anterior, le rogamos que no utilice este servicio."
       },
       {
-        "title": "2. Service Description",
-        "content": "We provide VPS hosting, dedicated servers, and game server hosting services. Our services are subject to availability and may be modified, suspended, or discontinued at any time without notice."
+        "title": "2. Descripción del servicio",
+        "content": "Ofrecemos alojamiento VPS, servidores dedicados y servidores de juegos. Nuestros servicios están sujetos a disponibilidad y pueden modificarse, suspenderse o interrumpirse en cualquier momento sin previo aviso."
       },
       {
-        "title": "3. User Responsibilities",
-        "content": "You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account. You agree to notify us immediately of any unauthorized use of your account."
+        "title": "3. Responsabilidades del usuario",
+        "content": "Usted es responsable de mantener la confidencialidad de la información de su cuenta y de todas las actividades que se realicen en ella. Acepta notificarnos de inmediato sobre cualquier uso no autorizado de su cuenta."
       },
       {
-        "title": "4. Acceptable Use Policy",
-        "content": "You agree not to use our services for any unlawful purpose or in any way that could damage, disable, overburden, or impair our servers or networks. Prohibited activities include but are not limited to: illegal content distribution, spam, malware distribution, and DDoS attacks."
+        "title": "4. Política de uso aceptable",
+        "content": "Acepta no utilizar nuestros servicios con fines ilegales ni de ninguna manera que pueda dañar, inhabilitar, sobrecargar o perjudicar nuestros servidores o redes. Las actividades prohibidas incluyen, entre otras: distribución de contenido ilegal, spam, minería de criptomonedas, distribución de malware y ataques DDoS."
       },
       {
-        "title": "5. Payment Terms",
-        "content": "Payment is due in advance for all services. We accept various payment methods as displayed on our website. Failure to pay may result in service suspension or termination."
+        "title": "5. Condiciones de pago",
+        "content": "El pago de todos los servicios debe realizarse por adelantado. Aceptamos varios métodos de pago, como se muestra en nuestro sitio web. La falta de pago puede resultar en la suspensión o cancelación del servicio."
       },
       {
-        "title": "6. Service Level Agreement",
-        "content": "We strive to maintain 99.9% uptime for our services. In case of extended downtime, service credits may be provided as outlined in our SLA documentation."
+        "title": "6. Acuerdo de nivel de servicio",
+        "content": "Nos esforzamos por mantener un 99.9% de disponibilidad de nuestros servicios. En caso de inactividad prolongada, se pueden otorgar créditos de servicio según lo estipulado en nuestra documentación del SLA."
       },
       {
-        "title": "7. Data Protection",
-        "content": "We implement appropriate security measures to protect your data. However, you are responsible for maintaining backups of your data. We are not liable for data loss."
+        "title": "7. Protección de datos",
+        "content": "Implementamos medidas de seguridad adecuadas para proteger sus datos. Sin embargo, usted es responsable de mantener copias de seguridad de sus datos. No nos responsabilizamos de la pérdida de datos."
       },
       {
-        "title": "8. Limitation of Liability",
-        "content": "Our liability is limited to the amount paid for the service in the preceding 12 months. We are not liable for any indirect, incidental, or consequential damages."
+        "title": "8. Limitación de responsabilidad",
+        "content": "Nuestra responsabilidad se limita al importe pagado por el servicio en los 12 meses anteriores. No nos hacemos responsables de ningún daño indirecto, incidental o consecuente."
       },
       {
-        "title": "9. Termination",
-        "content": "Either party may terminate this agreement at any time. Upon termination, your access to the services will be discontinued, and any outstanding fees become immediately due."
+        "title": "9. Terminación",
+        "content": "Cualquiera de las partes podrá rescindir este acuerdo en cualquier momento. Tras la rescisión, se interrumpirá su acceso a los servicios y cualquier cuota pendiente deberá abonarse de inmediato."
       },
       {
-        "title": "10. Changes to Terms",
-        "content": "We reserve the right to modify these terms at any time. Changes will be effective immediately upon posting. Your continued use of the service constitutes acceptance of the modified terms."
+        "title": "10. Cambios a los términos",
+        "content": "Nos reservamos el derecho de modificar estos términos en cualquier momento. Los cambios entrarán en vigor inmediatamente después de su publicación. Su uso continuado del servicio implica la aceptación de los términos modificados."
       }
     ]
   },
   "privacyPolicy": {
     "title": "Privacy Policy",
-    "lastUpdated": "July 2025",
+    "lastUpdated": "Junary 2026",
     "companyName": "DezerNova",
-    "websiteUrl": "https://nova.dezerx.com",
+    "websiteUrl": "https://trustsnodes.com",
     "contactEmail": "legal@dezerx.com",
     "sections": [
       {
-        "title": "1. Information We Collect",
-        "content": "We collect information you provide directly to us, such as when you create an account, make a purchase, or contact us for support. This may include your name, email address, billing information, and technical support communications."
+        "title": "1. Información que recopilamos",
+        "content": "Recopilamos la información que nos proporciona directamente, por ejemplo, al crear una cuenta, realizar una compra o contactarnos para solicitar asistencia. Esta información puede incluir su nombre, dirección de correo electrónico, información de facturación y comunicaciones de soporte técnico."
       },
       {
-        "title": "2. How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services, process transactions, send you technical notices and support messages, and communicate with you about products, services, and promotional offers."
+        "title": "2. Cómo usamos su información",
+        "content": "Utilizamos la información que recopilamos para proporcionar, mantener y mejorar nuestros servicios, procesar transacciones, enviarle avisos técnicos y mensajes de soporte, y comunicarnos con usted sobre productos, servicios y ofertas promocionales."
       },
       {
-        "title": "3. Information Sharing",
-        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy. We may share information with trusted service providers who assist us in operating our website and conducting our business."
+        "title": "3. Intercambio de información",
+        "content": "No vendemos, intercambiamos ni transferimos su información personal a terceros sin su consentimiento, salvo en los casos descritos en esta política. Podríamos compartir información con proveedores de servicios de confianza que nos ayudan a operar nuestro sitio web y a gestionar nuestra actividad."
       },
       {
-        "title": "4. Data Security",
-        "content": "We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is 100% secure."
+        "title": "4. Seguridad de datos",
+        "content": "Implementamos medidas de seguridad adecuadas para proteger su información personal contra accesos, alteraciones, divulgaciones o destrucción no autorizados. Sin embargo, ningún método de transmisión por internet es 100 % seguro."
       },
       {
-        "title": "5. Cookies and Tracking",
-        "content": "We use cookies and similar tracking technologies to enhance your experience on our website. You can control cookie settings through your browser preferences."
+        "title": "seguimiento de cookies",
+        "content": "Utilizamos cookies y tecnologías de seguimiento similares para mejorar su experiencia en nuestro sitio web. Puede controlar la configuración de cookies a través de las preferencias de su navegador."
       },
       {
-        "title": "6. Data Retention",
-        "content": "We retain your personal information for as long as necessary to provide our services and fulfill the purposes outlined in this policy, unless a longer retention period is required by law."
+        "title": "6. Retención de datos",
+        "content": "Conservamos su información personal durante el tiempo que sea necesario para brindar nuestros servicios y cumplir los propósitos descritos en esta política, a menos que la ley requiera un período de retención más largo."
       },
       {
-        "title": "7. Your Rights",
-        "content": "You have the right to access, update, or delete your personal information. You may also opt out of certain communications from us. Contact us to exercise these rights."
+        "title": "7. Tus derechos",
+        "content": "Tiene derecho a acceder, actualizar o eliminar su información personal. También puede optar por no recibir ciertas comunicaciones nuestras. Contáctenos para ejercer estos derechos."
       },
       {
-        "title": "8. Third-Party Services",
-        "content": "Our website may contain links to third-party websites or services. We are not responsible for the privacy practices of these third parties."
+        "title": "8. Servicios de terceros",
+        "content": "Nuestro sitio web puede contener enlaces a sitios web o servicios de terceros. No nos responsabilizamos de las prácticas de privacidad de estos terceros."
       },
       {
-        "title": "9. International Data Transfers",
-        "content": "Your information may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place for such transfers."
+        "title": "9. Transferencias Internacionales de Datos",
+        "content": "Su información podría transferirse y procesarse en países distintos del suyo. Garantizamos que se implementan las medidas de seguridad adecuadas para dichas transferencias."
       },
       {
-        "title": "10. Changes to This Policy",
-        "content": "We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the 'Last Updated' date."
+        "title": "10. Cambios a esta política",
+        "content": "Podemos actualizar esta política de privacidad periódicamente. Le notificaremos cualquier cambio publicando la nueva política en esta página y actualizando la fecha de "Última actualización"."
       }
     ]
   }

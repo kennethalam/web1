@@ -38,15 +38,15 @@ export default function PrivacyPage() {
               </div>
 
               <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-6 orbitron-font">
-                Your Privacy is Our <span className="icon-text-primary">Priority</span>
+                Su privacidad es nuestra <span className="icon-text-primary">Prioridad</span>
               </h1>
 
               <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-4">
-                We are committed to protecting your personal information and being transparent about how we use it.
+                Nos comprometemos a proteger su información personal y a ser transparentes sobre cómo la usamos.
               </p>
 
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Last updated: {legalConfig.privacyPolicy.lastUpdated}
+                Ultima Actualizacion: Junary 2026 {legalConfig.privacyPolicy.lastUpdated}
               </p>
             </motion.div>
             <motion.div
@@ -58,18 +58,18 @@ export default function PrivacyPage() {
               {[
                 {
                   icon: Lock,
-                  title: "Data Security",
-                  description: "Your data is encrypted and stored securely on our protected servers."
+                  title: "Seguridad de datos",
+                  description: "Sus datos están encriptados y almacenados de forma segura en nuestros servidores protegidos."
                 },
                 {
                   icon: Shield,
-                  title: "No Data Selling",
-                  description: "We never sell your personal information to third parties."
+                  title: "Sin venta de datos",
+                  description: "Nunca vendemos su información personal a terceros."
                 },
                 {
                   icon: Check,
-                  title: "Your Control",
-                  description: "Access, update, or delete your data at any time."
+                  title: "Tu control",
+                  description: "Acceda, actualice o elimine sus datos en cualquier momento."
                 }
               ].map((item, index) => (
                 <motion.div
@@ -123,16 +123,16 @@ export default function PrivacyPage() {
               className="mt-16 text-center"
             >
               <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-                Questions About Our Privacy Policy?
+                ¿Preguntas sobre nuestra política de privacidad?
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                We're here to help! Contact our privacy team at:
+                ¡Estamos aquí para ayudarte! Contacta con nuestro equipo de privacidad en:
               </p>
               <a
                 href={`mailto:${legalConfig.privacyPolicy.contactEmail}`}
                 className="inline-flex items-center gap-2 button-primary text-button-primary px-6 py-3 rounded-lg font-medium transition-colors duration-300 border border-secondary hover:hover-gradient hover:border-secondary"
               >
-                Contact Privacy Team
+                Contactar con el equipo de privacidad
                 <ExternalLink className="w-4 h-4" />
               </a>
             </motion.div>
