@@ -9,7 +9,7 @@
   "locations": [
     {
       "id": "usa",
-      "name": "United States - Dallas, TX "
+      "name": "United States - Dallas, TX ",
       "flag": "/flags/usa.png",
       "displayName": "USA",
       "availableCpus": ["ryzen-9"]
