@@ -54,18 +54,18 @@
   "socialLinks": [
     {
       "name": "Discord",
-      "href": "https://discord.gg/SAYrFNc3r7",
+      "href": "https://discord.gg/evnPRawNCz",
       "icon": "discord"
     }
   ],
   "clientSpace": {
     "name": "CLIENT SPACE",
-    "href": "https://builtbybit.com/resources/all-in-one-hosting-template-dezernova.69325/",
+    "href": "https://trustsnodes.com",
     "icon": "User"
   },
   "banner": {
     "show": true,
-    "text": "Limited Time Offer: Save 10% on Game Servers",
+    "text": "Limited Time Offer: Save 20% on Game Servers",
     "couponCode": "WELCOME",
     "useThemeColor": true,
     "backgroundColor": "bg-blue-400",
