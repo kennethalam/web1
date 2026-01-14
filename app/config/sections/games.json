@@ -2,7 +2,7 @@
   "planTypes": [
     {
       "id": "budget",
-      "name": "Budget",
+      "name": "Budget Intel",
       "displayName": "Budget Plans",
       "image": "/cpu/intel.png"
     },
