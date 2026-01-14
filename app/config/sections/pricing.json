@@ -11,7 +11,7 @@
         "titleKey": "pricingPlans.gameServers.title",
         "image": "/games.jpg",
         "descriptionKey": "pricingPlans.gameServers.description",
-        "basePrice": 4.99,
+        "basePrice": 2.99,
         "featuresKeys": [
           "pricingPlans.gameServers.features.instantDeployment",
           "pricingPlans.gameServers.features.ddosProtection",
@@ -28,7 +28,7 @@
         "titleKey": "pricingPlans.vpsHosting.title",
         "image": "/vps.png",
         "descriptionKey": "pricingPlans.vpsHosting.description",
-        "basePrice": 9.99,
+        "basePrice": 5.99,
         "featuresKeys": [
           "pricingPlans.vpsHosting.features.fullRootAccess",
           "pricingPlans.vpsHosting.features.ssdStorage",
@@ -45,7 +45,7 @@
         "titleKey": "pricingPlans.dedicatedServers.title",
         "image": "/dedicated.webp",
         "descriptionKey": "pricingPlans.dedicatedServers.description",
-        "basePrice": 99.99,
+        "basePrice": 51.99,
         "featuresKeys": [
           "pricingPlans.dedicatedServers.features.bareMetalPerformance",
           "pricingPlans.dedicatedServers.features.customHardware",

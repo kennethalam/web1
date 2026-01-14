@@ -92,7 +92,7 @@
         "loading": "lazy"
       },
       {
-        "name": "NeoProtect",
+        "name": "Cloudflare",
         "src": "/advertisement/neoprotect.png",
         "loading": "lazy"
       },
@@ -102,7 +102,7 @@
         "loading": "lazy"
       },
       {
-        "name": "DezerX",
+        "name": "TrustsNodes",
         "src": "/banners/Dezer-Banner.webp",
         "loading": "lazy"
       }
