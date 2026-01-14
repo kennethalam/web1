@@ -46,7 +46,7 @@ export default function PrivacyPage() {
               </p>
 
               <p className="text-sm text-gray-500 dark:text-gray-400">
-                Ultima Actualizacion: Junary 2026 {legalConfig.privacyPolicy.lastUpdated}
+                Ultima Actualizacion: {legalConfig.privacyPolicy.lastUpdated}
               </p>
             </motion.div>
             <motion.div

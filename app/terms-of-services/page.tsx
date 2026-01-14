@@ -63,7 +63,7 @@ export default function TermsPage() {
           </h1>
 
           <p className="text-gray-600 dark:text-gray-300">
-            Ultima Actualizacion: 12-01-2026 {legalConfig.termsOfService.lastUpdated}
+            Ultima Actualizacion: {legalConfig.termsOfService.lastUpdated}
           </p>
         </motion.div>
 
