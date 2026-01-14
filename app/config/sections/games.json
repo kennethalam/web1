@@ -1,6 +1,12 @@
 {
   "planTypes": [
     {
+      "id": "budget",
+      "name": "Budget",
+      "displayName": "Budget Plans",
+      "image": "/icons/nodejs.png"
+    },
+    {
       "id": "premium",
       "name": "Premium Ryzen 9",
       "image": "/cpu/ryzen9.png"
