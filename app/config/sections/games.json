@@ -121,7 +121,7 @@
     },
     {
       "id": "gmod",
-      "name": "Garry's Mod",
+      "name": "SA:MP",
       "description": "Create and play in endless user-generated content",
       "icon": "/icons/gmod-icon.webp",
       "banner": "/banners/gmod-banner.webp",
