@@ -42,7 +42,7 @@
             "cpu": "150%",
             "storage": "40 GB NVMe",
             "price": 4.0,
-            "orderLink": "https://billing.trustsnodes.com/minecraft-budget-4gb"
+            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft/budget-4gb"
           },
           {
             "id": "minecraft-budget-2",
