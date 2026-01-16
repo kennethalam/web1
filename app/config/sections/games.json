@@ -135,10 +135,10 @@
             "name": "SA:MP 4GB",
             "type": "budget",
             "ram": "4 GB",
-            "cpu": "Unmetered",
-            "storage": "Unmetered SSD",
+            "cpu": "150%",
+            "storage": "35 GB SSD",
             "price": 4.0,
-            "orderLink": "https://billing.trustsnodes.com/gmod-4gb"
+            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/budget-4gb1"
           },
           {
             "id": "gmod-budget-2",
