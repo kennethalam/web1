@@ -132,7 +132,7 @@
         "budget": [
           {
             "id": "gmod-budget-1",
-            "name": "GMod 4GB",
+            "name": "SA:MP 4GB",
             "type": "budget",
             "ram": "4 GB",
             "cpu": "Unmetered",
@@ -142,7 +142,7 @@
           },
           {
             "id": "gmod-budget-2",
-            "name": "GMod 8GB",
+            "name": "SA:MP 8GB",
             "type": "budget",
             "ram": "8 GB",
             "cpu": "Unmetered",
@@ -162,7 +162,7 @@
           },
           {
             "id": "gmod-budget-4",
-            "name": "GMod 32GB",
+            "name": "SA:MP 32GB",
             "type": "budget",
             "ram": "32 GB",
             "cpu": "Unmetered",
@@ -174,7 +174,7 @@
         "premium": [
           {
             "id": "gmod-premium-1",
-            "name": "GMod 4GB",
+            "name": "SA:MP 4GB",
             "type": "premium",
             "ram": "4 GB",
             "cpu": "Unmetered",
@@ -184,7 +184,7 @@
           },
           {
             "id": "gmod-premium-2",
-            "name": "GMod 8GB",
+            "name": "SA:MP 8GB",
             "type": "premium",
             "ram": "8 GB",
             "cpu": "Unmetered",
@@ -194,7 +194,7 @@
           },
           {
             "id": "gmod-premium-3",
-            "name": "GMod 16GB",
+            "name": "SA:MP 16GB",
             "type": "premium",
             "ram": "16 GB",
             "cpu": "Unmetered",
@@ -204,7 +204,7 @@
           },
           {
             "id": "gmod-premium-4",
-            "name": "GMod 32GB",
+            "name": "SA:MP 32GB",
             "type": "premium",
             "ram": "32 GB",
             "cpu": "Unmetered",
