@@ -39,8 +39,8 @@
             "name": "Minecraft 4GB",
             "type": "budget",
             "ram": "4 GB",
-            "cpu": "Unmetered",
-            "storage": "Unmetered SSD",
+            "cpu": "150%",
+            "storage": "40 GB NVMe",
             "price": 4.0,
             "orderLink": "https://billing.trustsnodes.com/minecraft-budget-4gb"
           },
