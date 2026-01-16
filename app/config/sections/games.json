@@ -137,7 +137,7 @@
             "ram": "4 GB",
             "cpu": "150%",
             "storage": "35 GB SSD",
-            "price": 4.0,
+            "price": 3.99,
             "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/budget-4gb1"
           },
           {
@@ -147,7 +147,7 @@
             "ram": "8 GB",
             "cpu": "250%",
             "storage": "75 GB SSD",
-            "price": 8.0,
+            "price": 7.99,
             "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/budget-8gb"
           },
           {
@@ -157,7 +157,7 @@
             "ram": "16 GB",
             "cpu": "350%",
             "storage": "150 GB SSD",
-            "price": 16.0,
+            "price": 15.99,
             "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/budget-16gb"
           },
           {
@@ -167,7 +167,7 @@
             "ram": "32 GB",
             "cpu": "500%",
             "storage": "300 GB SSD",
-            "price": 32.0,
+            "price": 31.99,
             "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/budget-32gb"
           }
         ],
