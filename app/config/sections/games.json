@@ -145,30 +145,30 @@
             "name": "SA:MP 8GB",
             "type": "budget",
             "ram": "8 GB",
-            "cpu": "Unmetered",
-            "storage": "Unmetered SSD",
+            "cpu": "250%",
+            "storage": "75 GB SSD",
             "price": 8.0,
-            "orderLink": "https://billing.trustsnodes.com/gmod-8gb"
+            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/budget-8gb"
           },
           {
             "id": "gmod-budget-3",
             "name": "SA:MP 16GB",
             "type": "budget",
             "ram": "16 GB",
-            "cpu": "Unmetered",
-            "storage": "Unmetered SSD",
+            "cpu": "350%",
+            "storage": "150 GB SSD",
             "price": 16.0,
-            "orderLink": "https://billing.trustsnodes.com/gmod-16gb"
+            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/budget-16gb"
           },
           {
             "id": "gmod-budget-4",
             "name": "SA:MP 32GB",
             "type": "budget",
             "ram": "32 GB",
-            "cpu": "Unmetered",
-            "storage": "Unmetered SSD",
+            "cpu": "500%",
+            "storage": "300 GB SSD",
             "price": 32.0,
-            "orderLink": "https://billing.trustsnodes.com/gmod-32gb"
+            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/budget-32gb"
           }
         ],
         "premium": [
