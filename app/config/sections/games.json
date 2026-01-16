@@ -41,7 +41,7 @@
             "ram": "4 GB",
             "cpu": "150%",
             "storage": "35 GB SSD",
-            "price": 4.0,
+            "price": 3.99,
             "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft/budget-4gb"
           },
           {
@@ -51,7 +51,7 @@
             "ram": "8 GB",
             "cpu": "200%",
             "storage": "75 GB SSD",
-            "price": 8.0,
+            "price": 7.99,
             "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft/budget-8gb"
           },
           {
@@ -61,7 +61,7 @@
             "ram": "16 GB",
             "cpu": "350%",
             "storage": "150 GB SSD",
-            "price": 16.0,
+            "price": 15.99,
             "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft/budget-16gb"
           },
           {
@@ -71,7 +71,7 @@
             "ram": "32 GB",
             "cpu": "500%",
             "storage": "300 GB SSD",
-            "price": 32.0,
+            "price": 31.99,
             "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft/budget-32gb"
           }
         ],
@@ -81,40 +81,40 @@
             "name": "Minecraft 4GB",
             "type": "premium",
             "ram": "4 GB",
-            "cpu": "Unmetered",
-            "storage": "Unmetered SSD",
-            "price": 5.0,
-            "orderLink": "https://billing.trustsnodes.com/minecraft-premium-4gb"
+            "cpu": "150%",
+            "storage": "35 GB NVMe",
+            "price": 4.99,
+            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft/premium-4gb"
           },
           {
             "id": "minecraft-premium-2",
             "name": "Minecraft 8GB",
             "type": "premium",
             "ram": "8 GB",
-            "cpu": "Unmetered",
-            "storage": "Unmetered SSD",
-            "price": 10.0,
-            "orderLink": "https://billing.trustsnodes.com/minecraft-premium-8gb"
+            "cpu": "250%",
+            "storage": "75 GB NVMe",
+            "price": 9.99,
+            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft-premium-8gb"
           },
           {
             "id": "minecraft-premium-3",
             "name": "Minecraft 16GB",
             "type": "premium",
             "ram": "16 GB",
-            "cpu": "Unmetered",
-            "storage": "Unmetered SSD",
-            "price": 20.0,
-            "orderLink": "https://billing.trustsnodes.com/minecraft-premium-16gb"
+            "cpu": "250%",
+            "storage": "150 GB NVMe",
+            "price": 19.99,
+            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft-premium-16gb"
           },
           {
             "id": "minecraft-premium-4",
             "name": "Minecraft 32GB",
             "type": "premium",
             "ram": "32 GB",
-            "cpu": "Unmetered",
-            "storage": "Unmetered SSD",
-            "price": 40.0,
-            "orderLink": "https://billing.trustsnodes.com/minecraft-premium-32gb"
+            "cpu": "500%",
+            "storage": "300 GB   NVMe",
+            "price": 39.99,
+            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft-premium-32gb"
           }
         ]
       }
@@ -152,7 +152,7 @@
           },
           {
             "id": "gmod-budget-3",
-            "name": "GMod 16GB",
+            "name": "SA:MP 16GB",
             "type": "budget",
             "ram": "16 GB",
             "cpu": "Unmetered",
@@ -204,7 +204,6 @@
           },
           {
             "id": "gmod-premium-4",
-            "name": "SA:MP 32GB",
             "type": "premium",
             "ram": "32 GB",
             "cpu": "Unmetered",
