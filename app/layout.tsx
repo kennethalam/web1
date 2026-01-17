@@ -6,7 +6,6 @@ import { LayoutWrapper } from "./components/layout-wrapper";
 import { LanguageProvider } from "./contexts/LanguageContext";
 import CookieConsent from "./components/CookieConsent";
 import ThemeSwitcher from "./components/ThemeSwitcher";
-import ChristmasSnowfall from "./components/ChristmasSnowfall.tsx.backup";
 import { Analytics } from "@vercel/analytics/next"
 
 const geistSans = Geist({
@@ -227,7 +226,6 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           <LanguageProvider>
-            <ChristmasSnowfall />
             <LayoutWrapper>
               {children}
               <Analytics />
