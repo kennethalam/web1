@@ -85,24 +85,6 @@ export default function FeaturesSection() {
             <Icon className="w-5 h-5 sm:w-6 sm:h-6 icon-primary" />
           </div>
         </div>
-        {uiConfig.christmasTheme.enabled && (
-          <>
-            <Image
-              src="/christmas/leaf-up.png"
-              alt="Christmas decoration"
-              width={80}
-              height={80}
-              className="absolute -top-6 -left-6 pointer-events-none"
-            />
-            <Image
-              src="/christmas/leaf-down.png"
-              alt="Christmas decoration"
-              width={80}
-              height={80}
-              className="absolute -bottom-6 -right-6 pointer-events-none"
-            />
-          </>
-        )}
       </motion.div>
     );
   };
