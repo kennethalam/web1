@@ -346,24 +346,6 @@ export default function HeroSection() {
                         <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                       </motion.div>
                     </a>
-                    {uiConfig.christmasTheme.enabled && (
-                      <>
-                        <Image
-                          src="/christmas/button-deco-up.png"
-                          alt="Christmas decoration"
-                          width={40}
-                          height={40}
-                          className="absolute -top-3 -right-3 pointer-events-none"
-                        />
-                        <Image
-                          src="/christmas/button-deco-down.png"
-                          alt="Christmas decoration"
-                          width={40}
-                          height={40}
-                          className="absolute -bottom-3 -left-3 pointer-events-none"
-                        />
-                      </>
-                    )}
                   </motion.div>
 
                   <motion.div
@@ -459,15 +441,6 @@ export default function HeroSection() {
                         </motion.div>
                       </div>
                     </div>
-                    {uiConfig.christmasTheme.enabled && feature.index === 3 && (
-                      <Image
-                        src="/christmas/ice.png"
-                        alt="Christmas decoration"
-                        width={90}
-                        height={90}
-                        className="absolute -bottom-24  pointer-events-none"
-                      />
-                    )}
                   </motion.div>
                 ))}
               </motion.div>
