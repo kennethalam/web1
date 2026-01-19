@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Orbitron, Quicksand } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "./components/theme-provider";
 import { LayoutWrapper } from "./components/layout-wrapper";
@@ -14,7 +15,7 @@ const geistSans = Geist({
   display: "swap",
   preload: true,
 });
-// hi there
+
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
@@ -37,7 +38,7 @@ const quicksand = Quicksand({
   display: "swap",
   preload: false,
 });
-// hello again
+
 export const viewport: Viewport = {
   width: 'device-width',
   initialScale: 1,
@@ -142,7 +143,7 @@ export const metadata: Metadata = {
     "privacy-policy": "https://trustsnodes.com/privacy-policy"
   }
 };
-// yo yo, wassup, ma name is big A aka the big ANTHONYYYYYYYYYYYYYYYYYY. like my work so far? rate it a 5 star on BBB pweaseeeeeeeeee
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -234,6 +235,25 @@ export default function RootLayout({
             <ThemeSwitcher />
           </LanguageProvider>
         </ThemeProvider>
+
+        {/* Tawk.to Live Chat Widget */}
+        <Script
+          id="tawk-to-chat"
+          strategy="lazyOnload"
+          dangerouslySetInnerHTML={{
+            __html: `
+              var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+              (function(){
+                var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+                s1.async=true;
+                s1.src='https://embed.tawk.to/696eb05d1090e9198185f007/1jfc61r4d';
+                s1.charset='UTF-8';
+                s1.setAttribute('crossorigin','*');
+                s0.parentNode.insertBefore(s1,s0);
+              })();
+            `
+          }}
+        />
       </body>
     </html>
   );
