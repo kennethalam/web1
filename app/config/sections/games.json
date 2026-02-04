@@ -10,7 +10,7 @@
   "locations": [
     {
       "id": "usa",
-      "name": "United States - Dallas, TX ",
+      "name": "United States - Miami, FL ",
       "flag": "/flags/usa.png",
       "displayName": "USA",
       "availableCpus": ["ryzen-9"],
