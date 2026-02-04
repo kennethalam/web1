@@ -35,9 +35,9 @@
             "type": "budget",
             "ram": "4 GB",
             "cpu": "150%",
-            "storage": "35 GB SSD",
+            "storage": "35 GB NVMe",
             "price": 3.99,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft/budget-4gb"
+            "orderLink": "https://billing.trustsnodes.com/store/mine/budget-4gb"
           },
           {
             "id": "minecraft-budget-2",
@@ -45,9 +45,9 @@
             "type": "budget",
             "ram": "8 GB",
             "cpu": "200%",
-            "storage": "75 GB SSD",
+            "storage": "75 GB NVMe",
             "price": 7.99,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft/budget-8gb"
+            "orderLink": "hhttps://billing.trustsnodes.com/store/mine/minecraft-8gb"
           },
           {
             "id": "minecraft-budget-3",
@@ -55,19 +55,19 @@
             "type": "budget",
             "ram": "16 GB",
             "cpu": "350%",
-            "storage": "150 GB SSD",
+            "storage": "150 GB NVMe",
             "price": 15.99,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft/budget-16gb"
+            "orderLink": "https://billing.trustsnodes.com/store/mine/minecraft-16gb"
           },
           {
             "id": "minecraft-budget-4",
-            "name": "Minecraft 32GB",
+            "name": "Minecraft Custom",
             "type": "budget",
-            "ram": "32 GB",
-            "cpu": "500%",
-            "storage": "300 GB SSD",
-            "price": 31.99,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft/budget-32gb"
+            "ram": "Custom",
+            "cpu": "Custom",
+            "storage": "Custom NVMe",
+            "price": 2.00,
+            "orderLink": "https://billing.trustsnodes.com/store/mine/minecraft-custom"
           }
         ],
         "premium": [
