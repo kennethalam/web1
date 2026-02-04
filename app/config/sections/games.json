@@ -2,13 +2,8 @@
   "planTypes": [
     {
       "id": "budget",
-      "name": "Budget Intel",
+      "name": "Premium Ryzen 5",
       "displayName": "Budget Plans",
-      "image": "/cpu/intel.png"
-    },
-    {
-      "id": "premium",
-      "name": "Premium Ryzen 9",
       "image": "/cpu/ryzen9.png"
     }
   ],
