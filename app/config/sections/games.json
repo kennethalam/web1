@@ -76,46 +76,7 @@
           }
         ],
         "premium": [
-          {
-            "id": "minecraft-premium-1",
-            "name": "Minecraft 4GB",
-            "type": "premium",
-            "ram": "4 GB",
-            "cpu": "150%",
-            "storage": "35 GB NVMe",
-            "price": 4.99,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft/premium-4gb"
-          },
-          {
-            "id": "minecraft-premium-2",
-            "name": "Minecraft 8GB",
-            "type": "premium",
-            "ram": "8 GB",
-            "cpu": "250%",
-            "storage": "75 GB NVMe",
-            "price": 9.99,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft-premium-8gb"
-          },
-          {
-            "id": "minecraft-premium-3",
-            "name": "Minecraft 16GB",
-            "type": "premium",
-            "ram": "16 GB",
-            "cpu": "250%",
-            "storage": "150 GB NVMe",
-            "price": 19.99,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft-premium-16gb"
-          },
-          {
-            "id": "minecraft-premium-4",
-            "name": "Minecraft 32GB",
-            "type": "premium",
-            "ram": "32 GB",
-            "cpu": "500%",
-            "storage": "300 GB   NVMe",
-            "price": 39.99,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/minecraft-premium-32gb"
-          }
+
         ]
       }
     },
