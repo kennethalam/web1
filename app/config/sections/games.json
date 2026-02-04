@@ -66,7 +66,7 @@
             "ram": "Custom",
             "cpu": "Custom",
             "storage": "Custom NVMe",
-            "price": 2.00,
+            "price": 0.00,
             "orderLink": "https://billing.trustsnodes.com/store/mine/minecraft-custom"
           }
         ],
