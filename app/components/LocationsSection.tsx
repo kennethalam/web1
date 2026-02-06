@@ -6,13 +6,13 @@ import { Globe } from "@/components/ui/globe";
 
 const locations = [
     {
-        name: "Dallas, TX",
-        region: "US South",
+        name: "Miami, FL",
+        region: "South Florida",
         flag: "/flags/usa.png",
-        ping: "70ms",
+        ping: "60ms",
         status: "active",
-        lat: 32.7767,
-        lng: -96.7970,
+        lat: 25.7617,
+        lng: -80.1918,
     },
 
 ];
