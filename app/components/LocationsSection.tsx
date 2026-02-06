@@ -7,7 +7,8 @@ import { Globe } from "@/components/ui/globe";
 const locations = [
     {
         name: "Miami, FL",
-        region: "South Florida",
+        region: "US",
+        subregion: "South Florida",
         flag: "/flags/usa.png",
         ping: "70ms",
         status: "active",
