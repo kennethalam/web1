@@ -25,8 +25,8 @@ export default function Footer() {
 
   const contactInfo = [
     { icon: Mail, label: t('footer.email'), value: "support@trustsnodes.com", href: "mailto:support@trustsnodes.com" },
-    { icon: Phone, label: t('footer.phone'), value: "N/A", href: "tel:+57 3246097518" },
-    { icon: Gamepad2, label: t('footer.gamePanel'), value: "panel.trustsnodes.com", href: "https://panel.trustsnodes.com.com" },
+    { icon: Phone, label: t('footer.phone'), value: "+57 3246097518, href: "tel:+57 3246097518" },
+    { icon: Gamepad2, label: t('footer.gamePanel'), value: "gs.trustsnodes.com", href: "https://panel.trustsnodes.com.com" },
   ]
 
   return (
