@@ -77,7 +77,7 @@
     },
     {
       "id": "gmod",
-      "name": "SA:MP",
+      "name": "GTA",
       "description": "Create and play in endless user-generated content",
       "icon": "/icons/gmod-icon.webp",
       "banner": "/banners/gmod-banner.webp",
@@ -88,86 +88,46 @@
         "budget": [
           {
             "id": "gmod-budget-1",
-            "name": "SA:MP 4GB",
+            "name": "GTA 4GB",
             "type": "budget",
             "ram": "4 GB",
             "cpu": "150%",
             "storage": "35 GB SSD",
             "price": 3.99,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/budget-4gb1/"
+            "orderLink": "https://billing.trustsnodes.com/store/mine/gta-4gb"
           },
           {
             "id": "gmod-budget-2",
-            "name": "SA:MP 8GB",
+            "name": "GTA 8GB",
             "type": "budget",
             "ram": "8 GB",
             "cpu": "250%",
             "storage": "75 GB SSD",
             "price": 7.99,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/budget-8gb-1/"
+            "orderLink": "https://billing.trustsnodes.com/store/mine/gta-8gb"
           },
           {
             "id": "gmod-budget-3",
-            "name": "SA:MP 16GB",
+            "name": "GTA 16GB",
             "type": "budget",
             "ram": "16 GB",
             "cpu": "350%",
             "storage": "150 GB SSD",
             "price": 15.99,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/budget-16gb-1/"
+            "orderLink": "https://billing.trustsnodes.com/store/mine/gta-16gb"
           },
           {
             "id": "gmod-budget-4",
-            "name": "SA:MP 32GB",
+            "name": "GTA Custom",
             "type": "budget",
-            "ram": "32 GB",
-            "cpu": "500%",
-            "storage": "300 GB SSD",
-            "price": 31.99,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/budget-32gb-1/"
-          }
-        ],
-        "premium": [
-          {
-            "id": "gmod-premium-1",
-            "name": "SA:MP 4GB",
-            "type": "premium",
-            "ram": "4 GB",
-            "cpu": "150%",
-            "storage": "35 GB NVMe",
-            "price": 4.99,
-            "orderLink": "https://billing.trustsnodes.com/gmod-premium-4gb"
-          },
-          {
-            "id": "gmod-premium-2",
-            "name": "SA:MP 8GB",
-            "type": "premium",
-            "ram": "8 GB",
-            "cpu": "250%",
-            "storage": "75GB NVMe",
-            "price": 10.0,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/budget-8gb-1"
-          },
-          {
-            "id": "gmod-premium-3",
-            "name": "SA:MP 16GB",
-            "type": "premium",
-            "ram": "16 GB",
-            "cpu": "Unmetered",
-            "storage": "Unmetered SSD",
-            "price": 20.0,
-            "orderLink": "https://billing.trustsnodes.com/index.php?rp=/store/sa-mp/premium16gb"
-          },
-          {
-            "id": "gmod-premium-4",
-            "type": "premium",
-            "ram": "32 GB",
-            "cpu": "Unmetered",
-            "storage": "Unmetered SSD",
-            "price": 40.0,
-            "orderLink": "https://billing.trustsnodes.com/gmod-premium-32gb"
+            "ram": "Custom",
+            "cpu": "Custom",
+            "storage": "Custom NVMe",
+            "price": 0.99,
+            "orderLink": "https://billing.trustsnodes.com/store/mine/fivem-custom"
           }
         ]
+
       }
     },
     {
