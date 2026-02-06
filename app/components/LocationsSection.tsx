@@ -9,7 +9,7 @@ const locations = [
         name: "Miami, FL",
         region: "South Florida",
         flag: "/flags/usa.png",
-        ping: "60ms",
+        ping: "70ms",
         status: "active",
         lat: 25.7617,
         lng: -80.1918,
